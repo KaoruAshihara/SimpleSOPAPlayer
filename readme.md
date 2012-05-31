@@ -1,5 +1,6 @@
 SimpleSOPAPlayer.java
 README
+**********
 
 To run SimpleSOPAPlayer.class, enter
 >java SimpleSOPAPlayer abc.sopa
