@@ -1,6 +1,7 @@
-SimpleSOPAPlayer.java
+#README
 
-README
+SimpleSOPAPlayer is a program that decode SOPA data and reproduce binaural signals.  
+SimpleSOPAPlayer.java is its source code.
 **********
 
 To run SimpleSOPAPlayer.class, enter
@@ -8,13 +9,17 @@ To run SimpleSOPAPlayer.class, enter
 
 and press return.
 
-‘abc.sopa’ has to be substituted with a name of a SOPA file you want to reproduce.
+‘abc.sopa’ has to be substituted with a name of a SOPA file you want to reproduce.  
+As a sample, 'kusa22k.sopa' is provided in this repository.  
+Enter the following command and you can listen to the binaural signals.
+
+>java SimpleSOPAPlayer kusa22k.sopa
 
 SimpleSOPAPlayer.class requires hrtf512.bin, phase512.bin and fft.class to run.
 
 **********
 
-License
+#License  
 Copyright (c) 2012, AIST
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
